@@ -45,7 +45,7 @@ def ingest_pdf(pdf_path: str):
     # split_documents takes our list of pages and splits each page into chunks
     chunks = splitter.split_documents(documents)
 
-    print(f"✅ Split into {len(chunks)} chunks")
+    print(f"Split into {len(chunks)} chunks")
 
     # Printing the first chunk
     print("\n--- Preview of first chunk ---")
